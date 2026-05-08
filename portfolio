@@ -1,22 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Amrita Jain | Portfolio</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f7fb;
+            color:#333;
+            line-height:1.7;
+        }
+
+        header{
+            background:#002b5c;
+            color:white;
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        header h1{
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:20px;
+        }
+
+        .container{
+            width:85%;
+            margin:auto;
+            padding:40px 0;
+        }
+
+        section{
+            background:white;
+            margin-bottom:25px;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        h2{
+            color:#002b5c;
+            margin-bottom:20px;
+            border-bottom:3px solid #002b5c;
+            display:inline-block;
+            padding-bottom:5px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        li{
+            margin-bottom:12px;
+        }
+
+        .skills{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:15px;
+        }
+
+        .skill-box{
+            background:#e8eef7;
+            padding:12px;
+            border-radius:8px;
+            text-align:center;
+            font-weight:bold;
+        }
+
+        footer{
+            background:#002b5c;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Amrita Jain</h1>
-    <h2>Assistant Professor</h2>
 
-    <p>Welcome to my portfolio website.</p>
+<header>
+    <h1>Prof. Amrita Jain</h1>
+    <p>Assistant Professor | Computer Science & Information Technology</p>
+</header>
 
-    <h3>Projects</h3>
-    <ul>
-        <li>Software Engineering and Agile</li>
-        <li>Portfolio Website</li>
-        <li>Different Tools</li>
-    </ul>
+<div class="container">
 
-    <h3>Contact</h3>
-    <p>Email: amritajain0987@gmail.com</p>
+    <section>
+        <h2>Introduction</h2>
+
+        <p>
+            I am an experienced Assistant Professor in Computer Science and Information Technology with more than 12 years of academic experience. My core interests include Information Security, Network Security, Software Engineering, and Blockchain Technology.
+        </p>
+
+        <p>
+            I am deeply dedicated to teaching and guiding students as they pursue academic and professional excellence. I aim to foster an intellectually engaging, inclusive, and supportive environment where learners can strengthen their critical thinking, research abilities, and self-confidence to thrive in their future careers.
+        </p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+
+        <ul>
+
+            <li>
+                <b>Assistant Professor</b><br>
+                Acropolis Institute of Technology and Research, Indore<br>
+                (2024 – Present)
+            </li>
+
+            <li>
+                <b>Assistant Professor</b><br>
+                Chameli Devi Group of Institutions, Indore<br>
+                (2022 – 2024)
+            </li>
+
+            <li>
+                <b>Head of Department (HOD)</b><br>
+                Malwa Institute of Science and Technology, Indore<br>
+                (2021 – 2022)
+            </li>
+
+            <li>
+                <b>Assistant Professor</b><br>
+                Swami Vivekanand College of Engineering, Indore<br>
+                (2018)
+            </li>
+
+            <li>
+                <b>Assistant Professor</b><br>
+                Sushila Devi Bansal College of Technology, Indore<br>
+                (2010 – 2016)
+            </li>
+
+        </ul>
+
+        <p>
+            Responsibilities include teaching core CSE subjects, guiding undergraduate projects, coordinating ERP and examinations, and contributing to institutional research and academic development.
+        </p>
+
+    </section>
+
+    <section>
+        <h2>Skills & Expertise</h2>
+
+        <div class="skills">
+
+            <div class="skill-box">Network Security</div>
+
+            <div class="skill-box">Blockchain Technology</div>
+
+            <div class="skill-box">Software Engineering</div>
+
+            <div class="skill-box">Information Security</div>
+
+            <div class="skill-box">Computer Networks</div>
+
+            <div class="skill-box">Computer Organization & Architecture</div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Education</h2>
+
+        <ul>
+            <li>
+                <b>Ph.D. (Information Technology)</b> – Pursuing (RDC Completed)
+            </li>
+
+            <li>
+                <b>M.E. (Information Security)</b> – IET DAVV,Indore
+            </li>
+
+            <li>
+                <b>B.E. (Information Technology)</b> – JIT Borawan
+            </li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Contact Information</h2>
+
+        <p>
+            <b>Institute Address:</b><br>
+            Acropolis Institute of Technology and Research, Indore, Madhya Pradesh, India
+        </p>
+
+        <br>
+
+        <p>
+            <b>Official Email:</b><br>
+            amritajain@acropolis.in
+        </p>
+
+        <br>
+
+        <p>
+            <b>Personal Email:</b><br>
+            amritajain0987@gmail.com
+        </p>
+
+        <br>
+
+        <p>
+            <b>Nationality:</b> Indian
+        </p>
+
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Prof. Amrita Jain | Academic Portfolio
+</footer>
+
 </body>
 </html>
